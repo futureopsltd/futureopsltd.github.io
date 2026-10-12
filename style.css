@@ -1,0 +1,7 @@
+:root { --bg: #f6f1e7; --fg: #142126; --accent: #8a5a00; }
+@media (prefers-color-scheme: dark) { :root { --bg: #142126; --fg: #f6f1e7; --accent: #f2b544; } }
+body { margin: 0; background: var(--bg); color: var(--fg); font: 16px/1.6 -apple-system, "Segoe UI", Roboto, sans-serif; }
+main { max-width: 720px; margin: 0 auto; padding: 48px 16px; }
+a { color: var(--accent); }
+h1 { font-size: 2rem; margin-bottom: 0.25rem; }
+h2 { font-size: 1.15rem; margin-top: 2rem; }
